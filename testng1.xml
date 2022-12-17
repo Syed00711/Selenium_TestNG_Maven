@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+
+  <test thread-count="5" verbose="2" name="chrome test">
+    <parameter name="browser" value="chrome" />
+  <parameter name="username" value="tomsmith" />
+  <parameter name="password" value="SuperSecretPassword!" />
+   <groups>	
+				<run>	
+   					 <include name="images" />	
+        		</run>	
+       		</groups>
+    <classes>
+    <class name="com.microcare.testng.auto.Login"/> 
+    <class name="com.microcare.testng.auto.FirstTestNG"/>
+     <class name="com.microcare.testng.auto.SecondTest"/> 
+    </classes>
+  </test> <!-- Default test -->
+  <test thread-count="5" verbose="2" name="firefox test">
+  <parameter name="browser" value="firefox" />
+  <parameter name="username" value="tomsmith" />
+  <parameter name="password" value="SuperSecretPassword!" />
+   <groups>	
+				<run>	
+   					 <include name="images" />	
+        		</run>	
+       		</groups>
+    <classes>
+    <class name="com.microcare.testng.auto.Login"/> 
+    <class name="com.microcare.testng.auto.FirstTestNG"/>
+     <class name="com.microcare.testng.auto.SecondTest"/> 
+    </classes>
+  </test>
+  <test thread-count="5" verbose="2" name="safari test">
+  <parameter name="browser" value="safari" />
+  <parameter name="username" value="tomsmith" />
+  <parameter name="password" value="SuperSecretPassword!" />
+   <groups>	
+				<run>	
+   					 <include name="images" />	
+        		</run>	
+       		</groups>
+    <classes>
+    <class name="com.microcare.testng.auto.Login"/> 
+    <class name="com.microcare.testng.auto.FirstTestNG"/>
+     <class name="com.microcare.testng.auto.SecondTest"/> 
+    </classes>
+  </test> 
+</suite> 
+
+
+
+<!-- Default suite -->

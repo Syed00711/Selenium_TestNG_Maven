@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="24" total="27" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34525" started-at="2022-12-15T16:35:43 IST" finished-at="2022-12-15T16:36:18 IST">
+    <groups>
+      <group name="images">
+        <method signature="Login.brokenImages()[pri:0, instance:com.microcare.testng.auto.Login@401e7803]" name="brokenImages" class="com.microcare.testng.auto.Login"/>
+        <method signature="Login.brokenImages()[pri:0, instance:com.microcare.testng.auto.Login@134593bf]" name="brokenImages" class="com.microcare.testng.auto.Login"/>
+        <method signature="Login.brokenImages()[pri:0, instance:com.microcare.testng.auto.Login@5fcd892a]" name="brokenImages" class="com.microcare.testng.auto.Login"/>
+      </group> <!-- images -->
+    </groups>
+    <test name="chrome test" duration-ms="6627" started-at="2022-12-15T16:35:43 IST" finished-at="2022-12-15T16:35:50 IST">
+      <class name="com.microcare.testng.auto.Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.microcare.testng.auto.Login@401e7803]" name="setup" is-config="true" duration-ms="2208" started-at="2022-12-15T16:35:43 IST" finished-at="2022-12-15T16:35:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="brokenImages()[pri:0, instance:com.microcare.testng.auto.Login@401e7803]" name="brokenImages" duration-ms="4238" started-at="2022-12-15T16:35:46 IST" finished-at="2022-12-15T16:35:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenImages -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.microcare.testng.auto.Login@401e7803]" name="tearDown" is-config="true" duration-ms="160" started-at="2022-12-15T16:35:50 IST" finished-at="2022-12-15T16:35:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.microcare.testng.auto.Login -->
+    </test> <!-- chrome test -->
+    <test name="firefox test" duration-ms="6662" started-at="2022-12-15T16:35:50 IST" finished-at="2022-12-15T16:35:57 IST">
+      <class name="com.microcare.testng.auto.Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.microcare.testng.auto.Login@134593bf]" name="setup" is-config="true" duration-ms="2667" started-at="2022-12-15T16:35:50 IST" finished-at="2022-12-15T16:35:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="brokenImages()[pri:0, instance:com.microcare.testng.auto.Login@134593bf]" name="brokenImages" duration-ms="3300" started-at="2022-12-15T16:35:53 IST" finished-at="2022-12-15T16:35:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenImages -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.microcare.testng.auto.Login@134593bf]" name="tearDown" is-config="true" duration-ms="692" started-at="2022-12-15T16:35:56 IST" finished-at="2022-12-15T16:35:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.microcare.testng.auto.Login -->
+    </test> <!-- firefox test -->
+    <test name="safari test" duration-ms="21210" started-at="2022-12-15T16:35:57 IST" finished-at="2022-12-15T16:36:18 IST">
+      <class name="com.microcare.testng.auto.Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.microcare.testng.auto.Login@5fcd892a]" name="setup" is-config="true" duration-ms="11347" started-at="2022-12-15T16:35:57 IST" finished-at="2022-12-15T16:36:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="brokenImages()[pri:0, instance:com.microcare.testng.auto.Login@5fcd892a]" name="brokenImages" duration-ms="9802" started-at="2022-12-15T16:36:08 IST" finished-at="2022-12-15T16:36:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenImages -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.microcare.testng.auto.Login@5fcd892a]" name="tearDown" is-config="true" duration-ms="60" started-at="2022-12-15T16:36:18 IST" finished-at="2022-12-15T16:36:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.microcare.testng.auto.Login -->
+    </test> <!-- safari test -->
+  </suite> <!-- Default suite -->
+</testng-results>
